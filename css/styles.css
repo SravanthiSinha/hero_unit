@@ -1,0 +1,170 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+li > a {
+    color: #9d9d9d;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline;
+}
+h1 {
+    font-size: 63px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-weight: normal;
+}
+.navbar {
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-color: #080808;
+    background-color: #222;
+}
+.fixed-top {
+    top: 0;
+    margin: -1%;
+    border-width: 0 0 1px;
+}
+.collapse {
+    max-height: 340px;
+}
+.top-left {
+    color: #9d9d9d;
+}
+.top-right {
+    float: right!important;
+    margin-right: -15px;
+}
+.top-group {
+    display: inline-block;
+}
+.nav-link {
+    padding: .5em 1em;
+}
+.form-group {
+    display: inline-block;
+}
+.active {
+    color: lightgray;
+}
+.main {
+    height: 280px;
+    margin-bottom: 2rem;
+    padding: 0 65px;
+    border-radius: .3rem;
+    background-color: #eceeef;
+}
+.main p {
+    font-size: 20px;
+    font-weight: 200;
+    margin: -4%;
+    margin-bottom: 30px;
+    padding: 0 35px;
+}
+.btn2 {
+    font-size: 18px;
+    line-height: 1.3333333;
+    padding: 10px 16px;
+    color: #eceeef;
+    border-color: #122b40;
+    border-color: hsl(214, 84%, 49%) hsl(214, 84%, 49%) hsl(214, 37%, 19.5%);
+    border-radius: 6px;
+    background-color: #204d74;
+    /*shinny */
+
+    background-color: hsl(214, 79%, 42%);
+    background-image: -khtml-gradient(linear, left top, left bottom, from(hsl(214, 84%, 49%)), to(hsl(214, 37%, 28%)));
+    background-image: -moz-linear-gradient(top, hsl(214, 84%, 49%), hsl(214, 37%, 28%));
+    background-image: -ms-linear-gradient(top, hsl(214, 84%, 49%), hsl(214, 37%, 28%));
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, hsl(214, 84%, 49%)), color-stop(100%, hsl(214, 37%, 28%)));
+    background-image: -webkit-linear-gradient(top, hsl(214, 84%, 49%), hsl(214, 37%, 28%));
+    background-image: -o-linear-gradient(top, hsl(214, 84%, 49%), hsl(214, 37%, 28%));
+    background-image: linear-gradient(hsl(214, 84%, 49%), hsl(214, 37%, 28%));
+    background-repeat: repeat-x;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .56);
+    -webkit-font-smoothing: antialiased;
+}
+.btn {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25;
+    padding: .5rem 1rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: #333;
+    border: 1px solid transparent;
+    border-color: #8c8c8c;
+    border-color: hsl(0, 0%, 79%) hsl(0, 0%, 79%) hsl(0, 0%, 68.5%);
+    border-radius: .25rem;
+    /*shinny */
+
+    background-color: hsl(0, 0%, 79%);
+    background-image: -khtml-gradient(linear, left top, left bottom, from(hsl(0, 0%, 121%)), to(hsl(0, 0%, 79%)));
+    background-image: -moz-linear-gradient(top, hsl(0, 0%, 121%), hsl(0, 0%, 79%));
+    background-image: -ms-linear-gradient(top, hsl(0, 0%, 121%), hsl(0, 0%, 79%));
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, hsl(0, 0%, 121%)), color-stop(100%, hsl(0, 0%, 79%)));
+    background-image: -webkit-linear-gradient(top, hsl(0, 0%, 121%), hsl(0, 0%, 79%));
+    background-image: -o-linear-gradient(top, hsl(0, 0%, 121%), hsl(0, 0%, 79%));
+    background-image: linear-gradient(hsl(0, 0%, 121%), hsl(0, 0%, 79%));
+    background-repeat: repeat-x;
+    background-repeat: repeat-x;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .69);
+    -webkit-font-smoothing: antialiased;
+}
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    /* Align on the same line */
+
+    justify-content: space-between;
+    /* Equal margin between the child elements */
+}
+/* For Presentation, not needed */
+
+.container > div {
+    padding: 10px;
+}
+.c {
+    width: auto;
+    margin: -2% 10%;
+}
+.form-control {
+    font-size: 14px;
+    line-height: 1.42857143;
+    height: 23px;
+    margin: 6%;
+    padding: 6px 12px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    background-image: none;
+}
+.nav-top {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 184px;
+    padding-left: 155px;
+}
+
+.form-button {
+    margin: 0 12px;
+}
